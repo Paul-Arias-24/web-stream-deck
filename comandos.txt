@@ -1,0 +1,2 @@
+CORRER NODE-RED DESDE EL CONTENEDOR
+sudo docker run --entrypoint="" -p 1880:1880/tcp --rm -it -v /direct/to/OBS-SD/main:/app wsd node-red -u /app
